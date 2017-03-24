@@ -22,17 +22,18 @@ forward(len);
 }
 
 // Triangle function
+var tri_size = 75
 function triangle(){
 right(270);
-forward(len);
+forward(tri_size);
 right(120);
-forward(len);
+forward(tri_size);
 right(120);
-forward(len);
+forward(tri_size);
 }
 
 stamp();
-triangle(len);
+triangle(tri_size);
 square(len);
 
 
